@@ -1,4 +1,4 @@
-name: MSE flask docker image
+name: MSE tensorflow docker image
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
       packages: write
       contents: read
     env:
-      IMAGE: ghcr.io/cosmian/mse-flask
+      IMAGE: ghcr.io/cosmian/mse-tensorflow
 
     steps:
       - name: Build date

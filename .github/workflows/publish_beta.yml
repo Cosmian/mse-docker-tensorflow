@@ -1,4 +1,4 @@
-name: MSE flask docker image BETA
+name: MSE tensorflow docker image BETA
 
 on:
   pull_request:
@@ -16,7 +16,7 @@ jobs:
       packages: write
       contents: read
     env:
-      IMAGE: ghcr.io/cosmian/mse-flask-beta
+      IMAGE: ghcr.io/cosmian/mse-tensorflow-beta
 
     steps:
       - name: Checkout
